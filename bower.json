@@ -1,0 +1,19 @@
+{
+  "name": "gulp_web",
+  "version": "0.1.0",
+  "description": "Basic web page build",
+  "authors": [
+    "Ergokira"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ergokira/gulp_web",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
