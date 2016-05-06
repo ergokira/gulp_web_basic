@@ -13,7 +13,7 @@ $ bower install
 > - Jquery
 
 
-# Task
+# Tasks
 
 > - Sass Compilation (gulp-sass)
 > - Browser reload (browsersync)

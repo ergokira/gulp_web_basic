@@ -1,8 +1,8 @@
 module.exports = function() 
 {
-	var client = './src/client/';
-	var clientApp = client + 'app/';
-	var temp = './.tmp/';
+	var client = './app';
+
+	var temp = './tmp/';
 
 	var config =
 	{
@@ -13,18 +13,11 @@ module.exports = function()
 		*/
 		alljs:
 		[ 
-			'./src/**/*.js',
+			'./app/**/*.js',
 			'./*.js'
 		],
-		client: client,
-		index: client + 'index.html',
-		js:
-		[
-			clientApp + '**/*.module.js',
-			clientApp + '**/*.js',
-			'!' + clientApp + '**/*.spec.js'
-		],
-		less: client + 'styles/styles.less',
+		app: app,
+		index: app + 'index.html',
 
 		/* 
 		* Bower and NPM locations
@@ -36,17 +29,6 @@ module.exports = function()
 			ignorePath: '../..'
 		}
 
-	};
-
-	config.getWiredepDefaultOptions = function () 
-	{	
-		var options = 
-		{
-			bowerJson: config.bower.json,
-			directory: config.bower.directory,
-			ignorePath: config.bower.ignorePath
-		};
-		return options;
 	};
 
 	return config;
