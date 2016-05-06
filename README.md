@@ -9,12 +9,12 @@ $ bower install
 
 # Includes
 
--Bootstrap-sass
--Jquery
+> - Bootstrap-sass
+> - Jquery
 
 
 # Task
 
--Sass Compilation (gulp-sass)
--Browser reload (browsersync)
--Start the server (gulp serve or gulp) 
+> - Sass Compilation (gulp-sass)
+> - Browser reload (browsersync)
+> - Start the server (gulp serve or gulp) 
