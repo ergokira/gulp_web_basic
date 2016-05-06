@@ -4,7 +4,7 @@
 ```bash
 $ npm install
 $ bower install
-$ npm start
+
 ```
 
 # Includes
@@ -16,3 +16,5 @@ $ npm start
 # Task
 
 -Sass Compilation (gulp-sass)
+-Browser reload (browsersync)
+-Start the server (gulp serve or gulp) 

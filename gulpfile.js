@@ -5,24 +5,30 @@ var gulp = require('gulp');
 
 
 /////// CODIGO PROPIO //////////
+var gulp        = require('gulp');
+var browserSync = require('browser-sync').create();
+var sass        = require('gulp-sass');
 
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var concat = require('gulp-concat');
- 
-gulp.task('sass', function () {
-  return gulp.src('src/sass/**/*.scss')
-    .pipe(sass.sync().on('error', sass.logError))
-    .pipe(concat('styles.css'))
-    .pipe(gulp.dest('./tmp'));
+// Static Server + watching scss/html files
+gulp.task('serve', ['sass'], function() {
+
+    browserSync.init({
+        server: "./app"
+    });
+
+    gulp.watch("app/scss/*.scss", ['sass']);
+    gulp.watch("app/*.html").on('change', browserSync.reload);
 });
- 
-gulp.task('sass:watch', function () {
-  gulp.watch('./sass/**/*.scss', ['sass']);
+
+// Compile sass into CSS & auto-inject into browsers
+gulp.task('sass', function() {
+    return gulp.src("app/scss/*.scss")
+        .pipe(sass())
+        .pipe(gulp.dest("/tmp"))
+        .pipe(browserSync.stream());
 });
 
-
-
+gulp.task('default', ['serve']);
 
 
 
