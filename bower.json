@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "description": "Basic web page build",
   "authors": [
-    "Ergokira"
+    "josuegb"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/ergokira/gulp_web",
+  "homepage": "https://github.com/josuegb/gulp_web",
   "ignore": [
     "**/.*",
     "node_modules",

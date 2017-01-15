@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "description": "Basic web page build",
   "authors": [
-    "Ergokira"
+    "josuegb"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/ergokira/gulp_web",
+  "homepage": "https://github.com/josuegb/gulp_web",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ergokira/gulp_web.git"
+    "url": "https://github.com/josuegb/gulp_web.git"
   },
   "scripts": {},
   "dependencies": {},
