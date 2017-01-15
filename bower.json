@@ -1,12 +1,12 @@
 {
-  "name": "gulp_basic",
+  "name": "gulp_web_basic",
   "version": "0.1.0",
   "description": "Basic web page build",
   "authors": [
-    "josuegb"
+    "ergokira"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/ergokira/gulp_basic",
+  "homepage": "https://github.com/ergokira/gulp_web_basic",
   "ignore": [
     "**/.*",
     "node_modules",
