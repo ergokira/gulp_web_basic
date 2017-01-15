@@ -1,15 +1,15 @@
 {
-  "name": "gulp_web",
+  "name": "gulp_basic",
   "version": "0.1.0",
   "description": "Basic web page build",
   "authors": [
     "josuegb"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/josuegb/gulp_web",
+  "homepage": "https://github.com/ergokira/gulp_basic",
   "repository": {
     "type": "git",
-    "url": "https://github.com/josuegb/gulp_web.git"
+    "url": "https://github.com/ergokira/gulp_basic.git"
   },
   "scripts": {},
   "dependencies": {},
