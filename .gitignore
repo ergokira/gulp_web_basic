@@ -12,6 +12,7 @@ obj
 node_modules
 bower_components
 build
+css
 #.tmp
 
 # Ignore Test reporters
